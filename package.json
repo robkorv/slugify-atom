@@ -1,9 +1,11 @@
 {
   "name": "slugify-atom",
   "main": "./lib/slugify-atom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Slugify a selection",
-  "activationEvents": ["slugify:convert"],
+  "activationEvents": [
+    "slugify:convert"
+  ],
   "repository": "https://github.com/robkorv/slugify-atom",
   "license": "MIT",
   "engines": {
