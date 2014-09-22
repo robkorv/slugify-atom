@@ -1,7 +1,7 @@
 {
   "name": "slugify-atom",
   "main": "./lib/slugify-atom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slugify a selection",
   "activationEvents": [
     "slugify:convert"
