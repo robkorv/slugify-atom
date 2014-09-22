@@ -1,14 +1,15 @@
 {
   "name": "slugify-atom",
   "main": "./lib/slugify-atom",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "activationEvents": ["slugify-atom:toggle"],
-  "repository": "https://github.com/atom/slugify-atom",
+  "version": "0.0.1",
+  "description": "Slugify a selection",
+  "activationEvents": ["slugify:convert"],
+  "repository": "https://github.com/robkorv/slugify-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "slug": "0.6.0"
   }
 }

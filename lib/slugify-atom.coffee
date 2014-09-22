@@ -1,13 +1,11 @@
-SlugifyAtomView = require './slugify-atom-view'
-
 module.exports =
-  slugifyAtomView: null
+  activate: ->
+    atom.workspaceView.command "slugify:convert", => @convert()
 
-  activate: (state) ->
-    @slugifyAtomView = new SlugifyAtomView(state.slugifyAtomViewState)
+  convert: ->
+    editor = atom.workspace.getActivePaneItem()
+    selection = editor.getLastSelection()
 
-  deactivate: ->
-    @slugifyAtomView.destroy()
-
-  serialize: ->
-    slugifyAtomViewState: @slugifyAtomView.serialize()
+    slug = require 'slug'
+    slugify = slug(selection.getText().toLowerCase())
+    selection.insertText("#{slugify}")

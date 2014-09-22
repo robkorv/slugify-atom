@@ -1,5 +1,15 @@
 # slugify-atom package
 
-A short description of your package.
+Exposes a slugify:convert command, which makes strings url-safe.
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Usage
+1. Select text
+2. `cmd-shift-P`, `Slugify: Convert`
+
+
+## Example
+
+* `Search Atom packages` -> `search-atom-packages`
+* `You can clone with HTTPS, SSH, or Subversion` -> `you-can-clone-with-https-ssh-or-subversion`
+* `I ♥ UNICODE` -> `i-love-unicode`
+* `uNiCoDe ♥ iS ☢` -> `unicode-love-is-radioactive`
