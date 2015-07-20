@@ -1,3 +1,6 @@
+## 0.2.0 - Happy 1.x to Atom
+* Upgrade to Atom's 1.0 APIs
+
 ## 0.1.2 - Don't get coffee
 * Readme expanded
 
