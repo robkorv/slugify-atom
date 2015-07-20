@@ -3,15 +3,15 @@
   "main": "./lib/slugify-atom",
   "version": "0.1.1",
   "description": "Slugify a selection",
-  "activationCommands": [
-    "slugify:convert"
-  ],
+  "activationCommands": {
+    "atom-workspace": "slugify:convert"
+  },
   "repository": "https://github.com/robkorv/slugify-atom",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.50.0 <2.0.0"
   },
   "dependencies": {
-    "slug": "0.6.0"
+    "slug": "^0.9.1"
   }
 }
