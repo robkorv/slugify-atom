@@ -3,7 +3,7 @@
   "main": "./lib/slugify-atom",
   "version": "0.1.1",
   "description": "Slugify a selection",
-  "activationEvents": [
+  "activationCommands": [
     "slugify:convert"
   ],
   "repository": "https://github.com/robkorv/slugify-atom",
