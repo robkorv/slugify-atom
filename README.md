@@ -10,7 +10,7 @@ An [atom package](https://atom.io/packages/slugify-atom) which exposes a
 apm install slugify-atom
 ```
 
-Or Settings/Preferences -> Packages -> Search for `slugify-atom`
+Or Settings/Preferences -> Install -> Search for `slugify-atom`
 
 ## Usage
 1. Select text
