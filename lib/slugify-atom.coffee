@@ -10,8 +10,10 @@ module.exports = SlugifyAtom =
 
   convert: ->
     if editor = atom.workspace.getActiveTextEditor()
-      selection = editor.getSelectedText()
-
       slug = require 'slug'
-      slugify = slug(selection, {mode: 'rfc3986'})
-      editor.insertText("#{slugify}")
+      editor.mutateSelectedText(
+        (selection) ->
+          selectedText = selection.getText()
+          slugify = slug(selectedText, {mode: 'rfc3986'})
+          selection.insertText("#{slugify}", {select: true})
+      )

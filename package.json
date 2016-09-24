@@ -1,7 +1,7 @@
 {
   "name": "slugify-atom",
   "main": "./lib/slugify-atom",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Slugify a selection",
   "activationCommands": {
     "atom-workspace": "slugify:convert"

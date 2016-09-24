@@ -1,3 +1,6 @@
+## 0.3.0 - Slugifies
+* Multi-cursor support
+
 ## 0.2.0 - Happy 1.x to Atom
 * Upgrade to Atom's 1.0 APIs
 
